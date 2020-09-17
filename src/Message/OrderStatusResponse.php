@@ -9,6 +9,26 @@ namespace Omnipay\Sberbank\Message;
 class OrderStatusResponse extends AbstractResponse
 {
     /**
+     * Get Transaction Reference
+     *
+     * @return null|string A response message from the payment gateway
+     */
+    public function getTransactionReference()
+    {
+        return $this->getRequest()->getOrderId();
+    }
+    
+    /**
+     * Get Transaction Id
+     *
+     * @return null|string A response message from the payment gateway
+     */
+    public function getTransactionId()
+    {
+        return array_key_exists('OrderNumber', $this->data) ? $this->data['OrderNumber'] : null;
+    }
+    
+    /**
      * Response Message
      *
      * @return null|string A response message from the payment gateway
