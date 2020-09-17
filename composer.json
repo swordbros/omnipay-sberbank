@@ -5,8 +5,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "AndrewNovikof",
-      "email": "andrewnovikofff@gmail.com"
+      "name": "Ahmet Hamdi",
+      "email": "ahmethamdibayrak@hotmail.com"
     }
   ],
   "keywords": [
@@ -14,7 +14,9 @@
     "acquiring",
     "rest",
     "api",
-    "payment"
+    "payment",
+    "tulparstudyo",
+    "swordbros"
   ],
   "require": {
     "php": "^7.1",
