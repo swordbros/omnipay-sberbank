@@ -266,7 +266,12 @@ class AuthorizeRequest extends AbstractRequest
         }
 
         $content = json_decode($httpResponse->getBody()->getContents(), true);
+        $response = $reflection->newInstance($this, $content);
 
-        return $reflection->newInstance($this, $content);
+        if($response->isRedirect()){
+            header('Location: '.$response->getRedirectUrl());
+        }
+        return $response;
+
     }
 }
