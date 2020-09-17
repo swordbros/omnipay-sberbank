@@ -1,7 +1,4 @@
 # Swordbros Sberbank acquiring for PHP 
-
-[![Build Status](https://swordbros.ru/)](https://swordbros.ru/)
-[![Total Downloads](https://swordbros.ru/)](https://swordbros.ru/)
 [![License](https://poser.pugx.org/andrewnovikof/omnipay-sberbank/license)](https://packagist.org/packages/andrewnovikof/omnipay-sberbank)
 
 # Introduction
