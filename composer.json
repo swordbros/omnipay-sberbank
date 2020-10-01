@@ -23,10 +23,7 @@
     "api",
     "payment",
     "tulparstudyo",
-    "swordbros",
-    "laravel",
-    "onlineshop",
-    "magazine"
+    "swordbros"
   ],
   "require": {
     "php": "^7.1",
