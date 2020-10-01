@@ -10,13 +10,7 @@
         "role": "Software Architect",
         "homepage": "https://swordbros.com/"
     },
-    ,
-        {
-            "name": "Jordi Boggiano",
-            "email": "j.boggiano@seld.be",
-            "homepage": "https://seld.be",
-            "role": "Developer"
-        },
+    
      {
       "name": "AndrewNovikof",
        "homepage": "https://github.com/AndrewNovikof/omnipay-sberbank"
