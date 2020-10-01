@@ -1,6 +1,6 @@
 {
   "name": "swordbros/omnipay-sberbank",
-  "description": "Omnipay driver for Sberbank By SWORD BROS. https://swordbros.com/",
+  "description": "Omnipay driver for Sberbank By swordbros.com",
   "type": "library",
   "license": "MIT",
   "authors": [
