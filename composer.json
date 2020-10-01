@@ -1,12 +1,25 @@
 {
   "name": "swordbros/omnipay-sberbank",
-  "description": "Omnipay driver for Sberbank By Tulparstudyo",
+  "description": "Omnipay driver for Sberbank By SWORD BROS.",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
       "name": "Ahmet Hamdi",
-      "email": "ahmethamdibayrak@hotmail.com"
+      "email": "ahmethamdi@swordbros.ru",
+        "role": "Software Architect",
+        "homepage": "https://swordbros.com/"
+    },
+    ,
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "https://seld.be",
+            "role": "Developer"
+        },
+     {
+      "name": "AndrewNovikof",
+       "homepage": "https://github.com/AndrewNovikof/omnipay-sberbank"
     }
   ],
   "keywords": [
@@ -16,7 +29,10 @@
     "api",
     "payment",
     "tulparstudyo",
-    "swordbros"
+    "swordbros",
+    "laravel",
+    "onlineshop",
+    "magazine"
   ],
   "require": {
     "php": "^7.1",
