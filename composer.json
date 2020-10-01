@@ -5,10 +5,17 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Ahmet Hamdi B.",
+      "name": "Ahmet Hamdi",
       "email": "ahmethamdi@swordbros.ru",
         "role": "Software Architect",
         "homepage": "https://swordbros.com/"
+    }
+    ,
+    
+     {
+      "name": "AndrewNovikof",
+       "email":"",
+       "homepage": "https://github.com/AndrewNovikof/omnipay-sberbank"
     }
   ],
   "keywords": [
