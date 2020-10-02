@@ -46,10 +46,13 @@ class Gateway extends AbstractGateway
      */
     public function getDefaultParameters()
     {
-        return [
+         return [
             'userName' => '',
             'password' => '',
             'testMode' => false,
+            'mdOrder' => '',
+            'bindingId' => '',
+            'ip' => '',
             'endPoint' => 'https://securepayments.sberbank.ru/payment/rest/'
         ];
     }
