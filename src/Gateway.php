@@ -246,6 +246,9 @@ class Gateway extends AbstractGateway
      */
     public function completePurchase(array $options = [])
     {
+        if(isset($_GET['orderId'])){
+            $options['orderId'] = $_GET['orderId'];
+        }
         return $this->createRequest(OrderStatusRequest::class, $options);
     }
 
