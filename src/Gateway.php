@@ -222,11 +222,12 @@ class Gateway extends AbstractGateway
      * @param array $options
      * @return RequestInterface
      */
+/*
     public function completeAuthorize(array $options = []): RequestInterface
     {
         return $this->createRequest(OrderStatusRequest::class, $options);
     }
-
+*/
     /**
      * Refund order request
      *
