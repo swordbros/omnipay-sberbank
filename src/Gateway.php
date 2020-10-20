@@ -249,8 +249,13 @@ class Gateway extends AbstractGateway
     {
         if(isset($_GET['orderId'])){
             $options['orderId'] = $_GET['orderId'];
+            return $this->createRequest(OrderStatusRequest::class, $options);
+        } else{
+            $options['orderId'] = false;
+            return $this->createRequest(OrderStatusRequest::class, $options);
+            $request->cancelled = true;
+            return $request;
         }
-        return $this->createRequest(OrderStatusRequest::class, $options);
     }
 
     /**
