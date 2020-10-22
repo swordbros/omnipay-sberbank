@@ -59,6 +59,11 @@ class AuthorizeResponse extends AbstractResponse implements RedirectResponseInte
      */
     public function isSuccessful()
     {
-        return !array_key_exists('errorCode', $this->data);
+        if($this->isRedirect()){
+            return false;
+        } else {
+            return !array_key_exists('errorCode', $this->data);
+        }
+        
     }
 }
