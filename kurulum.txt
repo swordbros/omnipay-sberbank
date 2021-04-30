@@ -1,0 +1,50 @@
+composer.json 'a eklenecekler:
+
+	"require": {
+        "php": "^7.2",
+        "aimeos/aimeos-laravel": "2020.10.6",
+        "omnipay/common": "^3.0",
+        "php-http/guzzle6-adapter": "2.0.2",
+        "php-http/httplug": "^2.0",
+        "swordbros/omnipay-sberbank": "^1.3",
+        "aimeos/ai-payments": "2020.10.6",
+     
+    },
+	
+--------------------------------------------
+Admin panel service
+Services -> Insert New Entry ->
+
+Status: Enabled
+Type: Payment 
+Code:Sberbank
+Label: Sberbank
+Provider: Omnipay
+Position: 0
+
+Option 
+Adress: no
+authorize:no
+createtoken: yes
+onsite: no
+password:
+username:
+testmode:yes
+type:Sberbank
+
+--------------------------------------------
+Gönderilen dataların bilgisini
+
+klasör yolu: vendor/swordbros/omnipay-sberbank/src/Message/AbstractRequest.php
+sendData() fonksiyonu 172. satıra
+
+		echo( $this->getHttpMethod());
+        echo( "<br>");
+        echo($url);
+        echo( "<br>");
+        print_r(  $this->getHeaders());
+        echo( "<br>");
+        print_r($data);
+        echo( "<hr>");
+		
+bu kodları ekleyerek aldık.
