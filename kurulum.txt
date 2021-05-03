@@ -24,13 +24,17 @@ Position: 0
 
 Option 
 Adress: no
-authorize:no
+authorize:yes
+bindingId: 1
+capture:0
 createtoken: yes
+ip:1
 onsite: no
 password:
 username:
 testmode:yes
 type:Sberbank
+
 
 --------------------------------------------
 Gönderilen dataların bilgisini
